@@ -1,7 +1,11 @@
+import { Outlet } from "react-router-dom"
 
 function DashboardLayout() {
   return (
-    <div>Dashboard Layout</div>
+    <div>
+      <h1>Esto nunca cambia</h1>
+      <Outlet />
+    </div>
   )
 }
 
